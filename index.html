@@ -56,7 +56,7 @@
 
       <div class="row banner">
          <div class="banner-text">
-            <h1 class="responsive-headline">Akshay Iye</h1>
+            <h1 class="responsive-headline">Akshay Iyer</h1>
             <h2><font color="white">Computer Vision | Deep Learning | Robotics</font></h2>
             <hr />
             <ul class="social">
@@ -115,7 +115,7 @@
 
                <div class="columns download">
                   <p>
-                     <a href="https://drive.google.com/open?id=1n-Fl4XXwQN650KRh5rdVIDtmBzmThNoD" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                     <a href="https://drive.google.com/file/d/1XbJykvXzLWIGu4HN9VDhChLbm0ZqiJKf/view?usp=sharing" class="button"><i class="fa fa-download"></i>Download Resume</a>
                   </p>
                </div>
 
@@ -170,9 +170,9 @@
                   <h3>Veermata Jijabai Technological Institute</h3>
                   
                   <p class="info">B.Tech in ECE <span>&bull;</span> <em class="date">July 2015 <span> &bull;</span> <class="info">GPA 9.3/10 <span>&bull;</span> Rank 2/74</em></p>
-                  <!-- <p>
+                  <p>
                   Related Coursework : Advanced Digital Signal Processing | Electronic Circuit Design and Analysis 
-                  </p> -->
+                  </p>
 
                   <p>
                   Funding/ Scholarships: <br>
@@ -206,12 +206,10 @@
                   <p class="info">Worcester Polytechnic Institute <span>&bull;</span> <em class="date">May 2019 - Present</em></p>
 
                   <p>
-                  • Working under Professor Emmanuel Agu on an NIH funded project to mitigate the effects of adverse lighting on wound images <br>
-                  • Using a dual encoder-decoder deep learning network to decompose an image into intrinsic images<br>
-                  • Using a composer to reconstruct the original image and training the entire network in a self supervised manner.<br>
-                  • Using PyTorch as the deep learning framework<br>
-                  • Creating a dataset of 60k wound images of a moulage under adverse lighting <br>
-                  • Using a GVM 896s lighting array to control intensity and color of light and a linear shift to control position <br>
+                  • Working under Professor Emmanuel Agu on an NIH funded project to mitigate the effects of adverse lighting on semantic segmentation of wound images <br>
+                  • Created our own dataset of 60k images of a wound moulage under varying lighting conditions and 5 different camera phones <br>
+                  • Carried out exploratory data analysis and found low light conditions to cause maximum deterioration of UNet performance.<br>
+                  • Enhancing low-light images using autoencoder based retinex decomposition and using it as preprocessing to segmentation <br>
                   <!-- • Creating a dataset of wound images at different orientations using Dobot M1, a four axis manipulator  -->
                   </p>
 
@@ -231,7 +229,7 @@
                   <p>
                   • Worked under Prof. Shichao Liu to build a 3D thermal map of indoor environments to detect thermal failures in buildings <br>
                   • Performed cross-calibration of a trimodal setup of RGB, depth (Orbbec Astra) and thermal (FLIR E40) cameras <br>
-                  • Developed a new pipeline to create a 3D thermal map using PointCloudFusion
+                  • Developed a new pipeline to create a 3D thermal map involving image registration and fusing point clouds
                   </p>
 
                </div>
@@ -309,6 +307,23 @@
             <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
 
           	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-09" title="">
+                        <img alt="" src="images/portfolio/deepvo1.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Intrinsic Image Decomposition</h5>
+                              <p>Self supervised learning</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end --> 
+		    
+		  <div class="columns portfolio-item">
                   <div class="item-wrap">
 
                      <a href="#modal-01" title="">
@@ -427,7 +442,7 @@
                   </div>
           		</div> <!-- item end -->
 
-               <div class="columns portfolio-item">
+<!--                <div class="columns portfolio-item">
                   <div class="item-wrap">
 
                      <a href="#modal-08" title="">
@@ -442,7 +457,7 @@
                      </a>
 
                   </div>
-          		</div>  <!-- item end -->
+          		</div>  <!-- item end --> -->
 
             </div> <!-- portfolio-wrapper end -->
 
@@ -451,8 +466,27 @@
 
          <!-- Modal Popup
 	      --------------------------------------------------------------- -->
+	
+	 <div id="modal-09" class="popup-modal mfp-hide">
 
-         <div id="modal-01" class="popup-modal mfp-hide">
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-deepvo1.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Intrinsic Image Decomposition</h4>
+			      <p> Intrinsic decomposition from a single image is a highly ill-posed problem with high ambiguity and limited training data. 
+				Achieved the decomposition to predict reflectance, shape, lighting, and shading from a single image using self supervised learning with an autoencoder</p>
+               <!-- <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span> -->
+		      </div>
+
+            <div class="link-box">
+               <a href="https://drive.google.com/open?id=1wLST8pnVoyAVDVhTxHnBYYmmtNtP_bbt" target="_blank">Documentation</a>
+               	 &nbsp <a href="https://github.com/akshay-iyer/DeepVO-pytorch" target="_blank">Code</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+         
+	<div id="modal-01" class="popup-modal mfp-hide">
 
 		      <img class="scale-with-grid" src="images/portfolio/modals/m-deepvo1.jpg" alt="" />
 
