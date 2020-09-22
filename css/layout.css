@@ -559,7 +559,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 48px;
-   color: #95A3A3;
+   color: #0d0e0e;
 }
 
 /* Portfolio Content */
@@ -664,7 +664,7 @@ ul#nav li.current a { color: #F06000; }
 }
 .popup-modal .description-box p {
 	font: 14px/24px 'opensans-regular', sans-serif;
-   color: #A1A1A1;
+   color: #3a3939;
    margin-bottom: 12px;
 }
 .popup-modal .description-box .categories {
