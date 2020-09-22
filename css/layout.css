@@ -198,17 +198,17 @@ ul#nav li.current a { color: #F06000; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
-   color: #fff;
+   color: #11ABB0;
    margin-bottom: 12px;
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #ffffff;
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 240px;
+   height: 240px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
@@ -258,6 +258,12 @@ ul#nav li.current a { color: #F06000; }
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
+#resume p {
+   line-height: 30px;
+   width: 120.33333%;
+   color: #3f3e3e;
+}
+
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
@@ -278,12 +284,126 @@ ul#nav li.current a { color: #F06000; }
 }
 #resume .date {
    font: 15px/24px 'opensans-regular', sans-serif;
+   color: #3c4146;
    margin-top: 6px;
 }
 
 /*----------------------------------------------*/
+/*	Work
+/*----------------------------------------------*/
+
+#work {
+   background: #fff;
+   padding-top: 90px;
+   padding-bottom: 72px;
+   overflow: hidden;
+}
+
+#work a, #work a:visited  { color: #11ABB0; }
+#work a:hover, #work a:focus { color: #313131; }
+
+#work h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#work h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+#work h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#work p {
+   line-height: 30px;
+   width: 120.33333%;
+   color: #3f3e3e;
+}
+
+#work .header-col { padding-top: 9px; }
+#work .main-col { padding-right: 10%; }
+
+.education, .work {
+   margin-bottom: 48px;
+   padding-bottom: 24px;
+   border-bottom: 1px solid #E8E8E8;
+}
+#work .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#work .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#work .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   color: #3c4146;
+   margin-top: 6px;
+}
+
+
+
+/*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
+
+/* ------------------------------------------------------------------ */
+/* d. skills Section
+/* ------------------------------------------------------------------ */
+
+#skills {
+   background: #fff;
+   padding-top: 90px;
+   padding-bottom: 72px;
+   overflow: hidden;
+}
+
+#skills a, #skills a:visited  { color: #11ABB0; }
+#skills a:hover, #skills a:focus { color: #313131; }
+
+#skills h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#skills h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+#skills h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#skills .header-col { padding-top: 9px; }
+#skills .main-col { padding-right: 10%; }
+
+.education, .work {
+   margin-bottom: 48px;
+   padding-bottom: 24px;
+   border-bottom: 1px solid #E8E8E8;
+}
+#skills .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#skills .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#skills .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   color: #3c4146;
+   margin-top: 6px;
+}
+
+
+
 
 .bars {
 	width: 95%;
@@ -331,9 +451,14 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: cpp 2s ease;
 }
 .pytorch {
-  	width: 75%;
+  	width: 90%;
   	-moz-animation: pytorch 2s ease;
   	-webkit-animation: pytorch 2s ease;
+}
+.pydata {
+   width: 85%;
+   -moz-animation: python 2s ease;
+   -webkit-animation: python 2s ease;
 }
 .ros {
   	width: 65%;
@@ -341,12 +466,12 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: ros 2s ease;
 }
 .python {
-  	width: 80%;
+  	width: 90%;
   	-moz-animation: python 2s ease;
   	-webkit-animation: python 2s ease;
 }
 .tensorflow {
-  	width: 50%;
+  	width: 75%;
   	-moz-animation: tensorflow 2s ease;
   	-webkit-animation: tensorflow 2s ease;
 }
@@ -355,15 +480,15 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: pcl 2s ease;
 }
-.opencv {
-  	width: 80%;
-  	-moz-animation: pcl 2s ease;
-  	-webkit-animation: pcl 2s ease;
+.sagemaker {
+  	width: 40%;
+  	-moz-animation: python 2s ease;
+  	-webkit-animation: python 2s ease;
 }
 
 @-moz-keyframes cpp {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 90%;  }
 }
 @-moz-keyframes pytorch {
   0%   { width: 0px;  }
@@ -392,7 +517,7 @@ ul#nav li.current a { color: #F06000; }
 
 @-webkit-keyframes cpp {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 90%;  }
 }
 @-webkit-keyframes pytorch {
   0%   { width: 0px;  }
